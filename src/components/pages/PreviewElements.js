@@ -22,17 +22,17 @@ const PreviewElements = () => {
         <FloatingButton
           elmId="contact-us-btn"
           styleClass="icon5"
-          icon={"icon-envelope-open"}
+          icon={"fa fa-linkedin"}
         />
         <FloatingButton
           elmId="contact-us-btn"
           styleClass="icon5"
-          icon={"icon-envelope-open"}
+          icon={"fa fa-twitter"}
         />
         <FloatingButton
           elmId="contact-us-btn"
           styleClass="icon5"
-          icon={"icon-envelope-open"}
+          icon={"fa fa-facebook"}
         />
       </Flex>
     </Container>

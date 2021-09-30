@@ -18,10 +18,12 @@ import {
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import PreviewElements from './pages/PreviewElements';
+import Header from './layouts/header';
 
 const App = () => {
   return(
    <BrowserRouter>
+     <Header />
      <Switch>
        <Route exact path="/" component={Home} />
        <Route exact path="/preview" component={PreviewElements} />

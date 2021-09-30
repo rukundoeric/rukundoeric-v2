@@ -1,9 +1,10 @@
 import { Container } from '../common';
-
+import React from 'react'
+import Banner from '../layouts/banner';
 const Home = () => {
   return(
-    <Container>
-      Hello there
+    <Container className="home_content">
+      <Banner />
     </Container>
   )
 }
