@@ -1,0 +1,15 @@
+$valken: url(../fonts/Valken__.ttf);
+$dosis: url(../fonts/DosisSemiBold.ttf);
+$helvetica: url(../fonts/Helvetica.ttf);
+$s-s-regular: url(../fonts/SourceSansPro-Regular.ttf);
+$roboto-medium: url(../fonts/Roboto-Medium.ttf);
+
+@import "./abstracts/variables";
+@import "./commons/button.scss";
+@import "./commons/floatingButton.scss";
+@import "./layouts/header.scss";
+@import "./pages/index.scss";
+@import "./layouts/slider.scss";
+@import "./commons/typewrite.scss";
+@import "./layouts/code.scss";
+@import "./layouts/about.scss";
