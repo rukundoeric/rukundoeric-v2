@@ -1,3 +1,9 @@
+@import "./screens";
+@import "./breakpoints";
+@import "./color";
+@import "./responsive";
+@import "./mixins";
+@import "./font_face";
 // fonts
 $font1:  'Poppins', sans-serif;
 $font2:  'Poppins', sans-serif;
@@ -49,5 +55,7 @@ $color-accent-1: #28AE60;
 $color_accent_1_a: lighten($btn_bg, 49%);
 $color_accent_1_b: lighten($btn_bg, 40%);
 $ripple-color:  lighten($color_accent_1, 1%);
+
+$color-accent-2: #28ae6013;
 
 $font_d_1: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

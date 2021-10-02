@@ -1,5 +1,5 @@
 body {
-	font-family: $font1;
+	// font-family: $font1;
 	font-weight: normal;
 	font-style: normal;
 	position: relative;
@@ -78,6 +78,9 @@ h4 a,
 h5 a,
 h6 a {
 	color: inherit;
+}
+p {
+	font-family: 'Montserrat',Arial, sans-serif;
 }
 
 h1 {
@@ -433,4 +436,64 @@ h3 {
 		background-color: green;
 		margin-left: 10px;
 	}
+}
+
+.heading-section {
+  .subheading {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 0;
+    color: $btn_bg;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    &:after {
+      position: absolute;
+      top: 50%;
+      left: -60px;
+      content: "";
+      transform: translateY(-50%);
+      width: 50px;
+      height: 1px;
+      margin-top: -1px;
+      background: $btn_bg;
+    }
+    &:before {
+      position: absolute;
+      top: 50%;
+      right: -60px;
+      content: "";
+      transform: translateY(-50%);
+      width: 50px;
+      height: 1px;
+      margin-top: -1px;
+      background: $btn_bg;
+    }
+  }
+  h3 {
+		font-size: 30px;
+		text-transform: uppercase;
+		font-family: dosis;
+    font-weight: 600;
+    @include media-breakpoint-down(sm) {
+      font-size: 28px;
+    }
+  }
+  // &.heading-section-white{
+  // 	.subheading{
+  // 		color: rgba(255,255,255,.9);
+  // 		&:after, &:before{
+  // 			background: $color-white;
+  // 		}
+  // 	}
+  // 	h2{
+  // 		font-size: 40px;
+  // 		color: $color-white;
+  // 	}
+  // 	p{
+  // 		color: rgba(255,255,255,.9);
+  // 	}
+  // }
 }

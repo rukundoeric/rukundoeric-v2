@@ -1,11 +1,13 @@
-import { Container } from '../common';
+import { Content } from '../common';
 import React from 'react'
 import Banner from '../layouts/banner';
+import About from '../layouts/about'
 const Home = () => {
   return(
-    <Container className="home_content">
+    <Content className="home_content">
       <Banner />
-    </Container>
+      <About />
+    </Content>
   )
 }
 

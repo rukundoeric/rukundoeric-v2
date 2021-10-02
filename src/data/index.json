@@ -56,42 +56,49 @@
       "email": "ericrukundo005@gmail.com"
     },
     "main": {
-      "name": "Rukundoeric",
+      "name": "Rukundo eric",
       "sections_links": [
         {
           "name": "Home",
-          "link": "#",
+          "link": "/",
           "section": "#home-section"
         },
         {
-          "name": "About",
-          "link": "#about",
+          "name": "About me",
+          "link": "/about",
           "section": "#about-section"
         },
         {
-          "name": "Expertise",
-          "link": "#expertise",
-          "section": "#expertise-section"
-        },
-        {
           "name": "Skills",
-          "link": "#my_skills",
+          "link": "/skills",
           "section": "#skills-section"
         },
         {
-          "name": "Experience",
-          "link": "#my_experience",
-          "section": "#experience-section"
-        },
+          "name": "Recommendations",
+          "link": "/recommendations",
+          "section": "#recommendations-section"
+        }
+      ],
+      "more_links": [
         {
           "name": "Projects",
-          "link": "#my_projects",
-          "section": "#projects-section"
+          "link": "/projects",
+          "icon": "icon-globe"
+        },
+        {
+          "name": "Work history",
+          "link": "/experience",
+          "icon": "icon-globe"
+        },
+        {
+          "name": "Articles or Blogs",
+          "link": "/blogs",
+          "icon": "icon-globe"
         },
         {
           "name": "Recommendations",
-          "link": "#recommendations",
-          "section": "#recommendations-section"
+          "link": "/recommendations",
+          "icon": "icon-globe"
         }
       ],
       "actions": [
@@ -104,7 +111,7 @@
     }
   },
   "banner": {
-    "greating": "Hi There!",
+    "greating": "Hi!",
     "introduction": "I'm Rukundo Eric",
     "description": "Full-Stack <span>Software Developer</span> with 2+ years <br /> of professional experience.",
     "actions": [
@@ -126,7 +133,8 @@
   },
   "about": {
     "title": "About Me",
-    "description": "Hi, I'm Eric. I’m an organized, detail-oriented, self-motivated, dedicated professional, and experienced developer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organization success. After discovering my passion for web development, I couldn’t get enough. I made websites for friends and family, worked with a local business, and hired myself out as a freelancer. I’m looking forward to bringing that passion to a full-time role. If you have a project that you want to get started or think you need my help with something, then get in touch.",
+    "title2": "Introduction",
+    "description": "I’m an organized, detail-oriented, self-motivated, dedicated professional, and experienced developer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organization success.",
     "actions": [
       {
         "name": "Download my cv",
@@ -140,10 +148,10 @@
     "subtitle": " I can help you bring your product to life - whether it's a Minimum Viable Product(MVP), UX/UI Services or API integration.",
     "items": [
       {
-        "icon": "flaticon-coding",
+        "icon": "fa fa-code",
         "iconStyle": "ServiceIcon",
-        "title": "Front-End",
-        "description": "As a JavaScript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced JavaScript MVC frameworks such as React.",
+        "title": "Full-stack web and Mobile developer",
+        "description": "As a Full-stack developer, I have experience working with the following frameworks: React.js, ReactNative.js, Vue.js, Node.js and Ruby on rails.",
         "animation": {
           "name": "zoom-in-up",
           "easing": "ease-in-out",
@@ -152,19 +160,7 @@
         }
       },
       {
-        "icon": "flaticon-api",
-        "iconStyle": "ServiceIcon",
-        "title": "Back-End",
-        "description": "Utilising backend frameworks such as rails or nodejs, I've written services supporting thousands of users, including REST APIs, e-learning applications and more.",
-        "animation": {
-          "name": "zoom-in-up",
-          "easing": "ease-in-out",
-          "delay": "300",
-          "duration": "1000"
-        }
-      },
-      {
-        "icon": "flaticon-remote",
+        "icon": "icon-globe",
         "iconStyle": "ServiceIcon",
         "title": "Remote Working",
         "description": "As a full-stack software developer, I have 2+ years of experience in working remotely",

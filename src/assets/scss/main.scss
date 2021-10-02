@@ -5,11 +5,6 @@ $s-s-regular: url(../fonts/SourceSansPro-Regular.ttf);
 $roboto-medium: url(../fonts/Roboto-Medium.ttf);
 
 @import "./abstracts/variables";
-@import "./abstracts/color";
-@import "./abstracts/responsive";
-@import "./abstracts/mixins";
-@import "./abstracts/keyframes";
-@import "./abstracts/font_face";
 @import "./commons/button.scss";
 @import "./commons/floatingButton.scss";
 @import "./layouts/header.scss";
@@ -17,3 +12,4 @@ $roboto-medium: url(../fonts/Roboto-Medium.ttf);
 @import "./layouts/slider.scss";
 @import "./commons/typewrite.scss";
 @import "./layouts/code.scss";
+@import "./layouts/about.scss";

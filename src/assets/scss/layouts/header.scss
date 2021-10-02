@@ -1,5 +1,5 @@
 .header-area {
-  position: absolute;
+  // position: absolute;
   left: 0;
   right: 0;
   width: 100%;
@@ -17,7 +17,6 @@
   .main-header-area {
     position: relative;
     padding: 10px 0;
-    // border: 1px solid red;
     background: transparent;
     box-shadow: 0 0 9px #ebebeb;
 
@@ -33,6 +32,35 @@
       @include flexbox();
       @include align-items(center);
       @include justify-content(flex-end);
+
+      .more-menu-container {
+        position: relative;
+        
+
+        .dropdown-menu-o {
+          background-color: white;
+          width: 250px;
+          position: absolute;
+          z-index: 999;
+          right: 0;
+          display: none;
+          box-shadow: -2px 2px 6px #a9a9a97e;
+
+          .item {
+            i,
+            span {
+              color: #727272;
+            }
+            &:hover{
+              background-color: #dadada44;
+              i,
+               span {
+                color: #28ae60;
+              }
+            }
+          }
+        }
+      }
 
       .search_button {
         @media #{$mid_device} {
@@ -61,7 +89,7 @@
               font-size: 15px;
 
               &:hover {
-                color: #fff;
+                color: rgb(7, 2, 2);
               }
             }
           }
@@ -218,10 +246,9 @@
     &.sticky {
       position: fixed;
       width: 100%;
-      top: -95px;
+      top: -70px;
       left: 0;
       right: 0;
-      padding: 20px 0;
       z-index: 990;
       transform: translateY(70px);
       transition: transform 500ms ease, background 500ms ease;
@@ -233,29 +260,29 @@
         background-color: rgb(37, 37, 37) !important;
       }
 
-      .mobile_menu {
-        span {
-          color: rgb(44, 44, 44) !important;
-        }
-      }
+      // .mobile_menu {
+      //   span {
+      //     color: rgb(44, 44, 44) !important;
+      //   }
+      // }
 
-      li {
-        a {
-          font-weight: 700;
-        }
-      }
+      // li {
+      //   a {
+      //     font-weight: 700;
+      //   }
+      // }
 
-      a {
-        color: rgb(13, 15, 26) !important;
+      // a {
+      //   color: rgb(13, 15, 26) !important;
 
-        span {
-          color: rgb(13, 15, 26) !important;
+      //   span {
+      //     color: rgb(13, 15, 26) !important;
 
-          i {
-            color: white;
-          }
-        }
-      }
+      //     i {
+      //       color: white;
+      //     }
+      //   }
+      // }
 
       .popup-with-form {
         color: white !important;
@@ -280,6 +307,7 @@
 
   .header-top_area {
     padding: 12px 0;
+    background-color: $color-accent-2;
     // box-shadow: 0 0 9px #ebebeb;
 
     .social_media_links {
@@ -312,15 +340,15 @@
       box-shadow: 0px 10px 16px 10px rgba(0, 0, 0, 0.322);
       background: white;
 
-      li {
-        a {
-          font-weight: 700;
-        }
-      }
+      // li {
+      //   a {
+      //     font-weight: 700;
+      //   }
+      // }
 
-      a {
-        color: rgb(13, 15, 26) !important;
-      }
+      // a {
+      //   // color: rgb(13, 15, 26) !important;
+      // }
 
       @media #{$mobile_device} {
         padding: 10px 10px;
