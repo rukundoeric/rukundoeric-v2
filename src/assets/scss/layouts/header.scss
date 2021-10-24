@@ -139,13 +139,12 @@
           position: relative;
           margin: 0 10px;
           a {
-            color: rgb(112, 112, 112);
-            font-size: 15px;
+            color: rgb(65, 65, 65);
+            font-size: 17px !important;
             text-transform: capitalize;
             font-weight: 400;
             display: inline-block;
-            padding: 0px 0px 0px 0px;
-            font-family: $font1;
+            font-family: dosis;
             position: relative;
             text-transform: capitalize;
 
@@ -271,7 +270,7 @@
       //     font-weight: 700;
       //   }
       // }
-
+      main-menu
       // a {
       //   color: rgb(13, 15, 26) !important;
 
@@ -398,7 +397,6 @@
     color: rgb(68, 68, 68);
     position: relative;
     font-size: 20px;
-    font-weight: 700;
     font-family: dosis;
     text-transform: uppercase;
     font-weight: 600;
@@ -411,6 +409,8 @@
       justify-content: center;
       margin: 0 3px;
       border: 1px solid $btn_bg;
+      color: white;
+      background-color: $btn_bg;
       border-radius: 50%;
     }
 
@@ -467,8 +467,9 @@
 
       a {
         font-size: 13px;
-        color: rgb(58, 58, 58);
+        color: rgb(77, 77, 77);
         margin-left: 50px;
+        font-family: dosis;
 
         @media #{$mobile_device} {
           margin-left: 0;

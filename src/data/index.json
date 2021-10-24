@@ -177,60 +177,118 @@
     "title": "My Skills",
     "skills": [
       {
-        "name": "HTML / CSS",
-        "level": 100
+        "name": "Javascript",
+        "level": "Expert",
+        "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058391/Portfolio/skills_icons/javascript_fmvrdw.png"
       },
       {
-        "name": "Bootstrap",
-        "level": 100
+        "name": "Ruby",
+        "level": "Expert",
+        "description": "Ruby is an interpreted, high-level, general-purpose programming language. is dynamically typed and uses garbage collection and just-in-time compilation.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058391/Portfolio/skills_icons/ruby_qxqe6f.png"
       },
       {
-        "name": "REACT / REDUX",
-        "level": 95
+        "name": "HTML",
+        "level": "Professional",
+        "description": "The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058391/Portfolio/skills_icons/html_hy5fre.png"
       },
       {
-        "name": "MOBILE / REACT NATIVE",
-        "level": 95
+        "name": "CSS",
+        "level": "Professional",
+        "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058390/Portfolio/skills_icons/css3_owmyy8.png"
       },
       {
-        "name": "JavaScript / JQUERY",
-        "level": 92
+        "name": "React",
+        "level": "Expert",
+        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058390/Portfolio/skills_icons/react_j82rom.png"
       },
       {
-        "name": "NODE.JS / EXPRESS",
-        "level": 85
+        "name": "Redux",
+        "level": "Professional",
+        "description": "Redux is an open-source JavaScript library for managing and centralizing application state.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058391/Portfolio/skills_icons/redux_veghus.png"
       },
       {
-        "name": "RUBY / RUBY ON RAILS",
-        "level": 96
+        "name": "Node js",
+        "level": "Advanced",
+        "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058390/Portfolio/skills_icons/node-js_yy7lzq.png"
       },
       {
-        "name": "MySQL",
-        "level": 70
+        "name": "Ruby on rails",
+        "level": "Advanced",
+        "description": "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058391/Portfolio/skills_icons/rails_ymbr4l.png"
       },
       {
-        "name": "PostgreSQL",
-        "level": 80
+        "name": "NPM",
+        "level": "Expert",
+        "description": "npm is a package manager for the JavaScript programming language maintained by npm, Inc.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058390/Portfolio/skills_icons/npm_mwrrac.png"
+      },
+      {
+        "name": "Bootsrap",
+        "level": "Expert",
+        "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058389/Portfolio/skills_icons/bootstrap_qwvf8c.png"
+      },
+      {
+        "name": "SASS",
+        "level": "Expert",
+        "description": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058391/Portfolio/skills_icons/sass_f5cnha.png"
+      },
+      {
+        "name": "Firebase",
+        "level": "Expert",
+        "description": "Firebase is a platform developed by Google for creating mobile and web applications.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058389/Portfolio/skills_icons/firebase_ztam0b.png"
+      },
+      {
+        "name": "Google cloud",
+        "level": "Advanced",
+        "description": "Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058390/Portfolio/skills_icons/google-cloud_dnkmmo.png"
       },
       {
         "name": "MongoDB",
-        "level": 75
+        "level": "Advanced",
+        "description": "MongoDB is a source-available cross-platform document-oriented database program.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058390/Portfolio/skills_icons/mongodb_frvkqf.png"
       },
       {
-        "name": "GIT",
-        "level": 98
+        "name": "MySQL",
+        "level": "Expert",
+        "description": "MySQL is an open-source relational database management system.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058391/Portfolio/skills_icons/mysql_zsqlgn.png"
       },
       {
-        "name": "Google Cloud Platform (GCP)",
-        "level": 60
+        "name": "PostgreSQL",
+        "level": "Professional",
+        "description": "PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058390/Portfolio/skills_icons/postgresql_vjk11v.png"
+      },
+      {
+        "name": "Git",
+        "level": "Expert",
+        "description": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058391/Portfolio/skills_icons/git_hhjv8y.png"
+      },
+      {
+        "name": "NGINX",
+        "level": "Expert",
+        "description": "Nginx, stylized as NGINX, nginx or NginX, is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058389/Portfolio/skills_icons/nginx_zsn3ca.png"
       },
       {
         "name": "Docker",
-        "level": 92
-      },
-      {
-        "name": "Agile software development",
-        "level": 100
+        "level": "Expert",
+        "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.",
+        "icon": "https://res.cloudinary.com/newpoint/image/upload/v1635058389/Portfolio/skills_icons/docker_nicme2.png"
       }
     ]
   },
@@ -524,6 +582,50 @@
       }
     ]
   },
+  "sIntro": {
+    "title": "We are here to help you bring your product to life",
+    "section1": {
+      "title": "Front-End",
+      "description": "We use the front-end development frameworks below to ensure the flexibility and usability of your application.",
+      "techList": [
+        {
+          "name": "Reactjs",
+          "icon": "cust-reactjs"
+        },
+        {
+          "name": "Angulajs",
+          "icon": "cust-angular"
+        },
+        {
+          "name": "Vue",
+          "icon": "cust-vue"
+        },
+
+        {
+          "name": "Jquery",
+          "icon": "cust-jquery"
+        }
+      ]
+    },
+    "section2": {
+      "title": "Back-End",
+      "description": "We Are Here To Solve Your Problems and Deliver Your Needs",
+      "techList": [
+        {
+          "name": "Nodejs",
+          "icon": "cust-nodejs"
+        },
+        {
+          "name": "Ruby on rails",
+          "icon": "cust-rails"
+        },
+        {
+          "name": "Java",
+          "icon": "cust-java"
+        }
+      ]
+    }
+  },
   "recommendation": {
     "title": "Recommendation",
     "recommendations": [
@@ -590,5 +692,96 @@
   "contacts": {
     "name": "Rukundo <br /> Eric",
     "description": " I'm here to help you bring your product to life, whether it's a Minimum Viable Product(MVP), UX/UI Services or API integration. please let me know if I can help,I will be grad to discuss the details with you."
+  },
+  "services": {
+    "sectionName": "Services",
+    "title": "Meet Our Best Services",
+    "subtitle": " We can help you bring your product to life - whether it's a Minimum Viable Product(MVP), UX/UI Services or API integration.",
+    "items": [
+      {
+        "icon": "flaticon-graphic-designer",
+        "iconStyle": "ServiceIcon",
+        "title": "Web Design",
+        "description": "Design an engaging product that is easy-to-use and attractive",
+        "animation": {
+          "name": "zoom-in-up",
+          "easing": "ease-in-out",
+          "delay": "300",
+          "duration": "1000"
+        }
+      },
+      {
+        "icon": "flaticon-computer",
+        "iconStyle": "ServiceIcon",
+        "title": "Front-End Development",
+        "description": "Implement a product that is attractive and functional.",
+        "animation": {
+          "name": "zoom-in-up",
+          "easing": "ease-in-out",
+          "delay": "300",
+          "duration": "1000"
+        }
+      },
+      {
+        "icon": "flaticon-app-development",
+        "iconStyle": "ServiceIcon",
+        "title": "Mobile Application Development",
+        "description": "Design and implement mobile application",
+        "animation": {
+          "name": "zoom-in-up",
+          "easing": "ease-in-out",
+          "delay": "300",
+          "duration": "1000"
+        }
+      },
+      {
+        "icon": "flaticon-api-1",
+        "iconStyle": "ServiceIcon",
+        "title": "Back-End Development",
+        "description": "Solve your problem and deliver your needs",
+        "animation": {
+          "name": "zoom-in-up",
+          "easing": "ease-in-out",
+          "delay": "300",
+          "duration": "1000"
+        }
+      },
+      {
+        "icon": "flaticon-api-1",
+        "iconStyle": "ServiceIcon",
+        "title": "Back-End Development",
+        "description": "Solve your problem and deliver your needs",
+        "animation": {
+          "name": "zoom-in-up",
+          "easing": "ease-in-out",
+          "delay": "300",
+          "duration": "1000"
+        }
+      },
+      {
+        "icon": "flaticon-api-1",
+        "iconStyle": "ServiceIcon",
+        "title": "Back-End Development",
+        "description": "Solve your problem and deliver your needs",
+        "animation": {
+          "name": "zoom-in-up",
+          "easing": "ease-in-out",
+          "delay": "300",
+          "duration": "1000"
+        }
+      },
+      {
+        "icon": "flaticon-api-1",
+        "iconStyle": "ServiceIcon",
+        "title": "Back-End Development",
+        "description": "Solve your problem and deliver your needs",
+        "animation": {
+          "name": "zoom-in-up",
+          "easing": "ease-in-out",
+          "delay": "300",
+          "duration": "1000"
+        }
+      }
+    ]
   }
 }

@@ -10,6 +10,8 @@ import "../assets/css/aos.css";
 import "../assets/css/slick.css";
 import "../assets/css/slicknav.css";
 import "../assets/css/style.css";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 import {
   Route,
   BrowserRouter,
@@ -19,8 +21,13 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import PreviewElements from './pages/PreviewElements';
 import Header from './layouts/header';
+import aos from 'aos';
+
 
 const App = () => {
+  useEffect(()=> {
+    aos.init();
+  },[])
   return(
    <BrowserRouter>
      <Header />

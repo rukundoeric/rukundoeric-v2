@@ -34,7 +34,7 @@
         color: $btn_bg;
         font-size: 30px;
         font-weight: 600;
-        font-family: s-s-regular;
+        font-family: valken;
         
         @media #{$big_screen} {
           text-align: start !important;
@@ -55,10 +55,11 @@
         letter-spacing: 2px;
         font-weight: 400;
         line-height: 62px;
-        font-family: dosis !important;
+        font-family: valken !important;
 
         span {
           font-weight: 700;
+          font-family: helvetica;
         }
 
         @media #{$big_screen} {

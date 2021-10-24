@@ -3,8 +3,11 @@ $dosis: url(../fonts/DosisSemiBold.ttf);
 $helvetica: url(../fonts/Helvetica.ttf);
 $s-s-regular: url(../fonts/SourceSansPro-Regular.ttf);
 $roboto-medium: url(../fonts/Roboto-Medium.ttf);
+$s-intro-web-mob-bg: url(../imgs/ser-6.jpg);
+$s-intro-api-bg: url(../imgs/ser-3.jpg);
 
 @import "./abstracts/variables";
+@import "./abstracts/keyframes";
 @import "./commons/button.scss";
 @import "./commons/floatingButton.scss";
 @import "./layouts/header.scss";
@@ -13,3 +16,5 @@ $roboto-medium: url(../fonts/Roboto-Medium.ttf);
 @import "./commons/typewrite.scss";
 @import "./layouts/code.scss";
 @import "./layouts/about.scss";
+@import "./layouts/project_few.scss";
+@import "./layouts/skills.scss";

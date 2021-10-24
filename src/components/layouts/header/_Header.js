@@ -39,7 +39,7 @@ export default function _Header() {
           </Content>
           <Flex between center>
             <Content className="main-menu  d-none d-lg-block">
-              <nav>
+              <Content>
                 <ul id="navigation">
                   {header.main.sections_links.map(({ name, section, link }) => (
                     <li key={name}>
@@ -47,7 +47,7 @@ export default function _Header() {
                     </li>
                   ))}
                 </ul>
-              </nav>
+              </Content>
             </Content>
             <Content className="Appointment">
               <Content className="more-menu-container">
