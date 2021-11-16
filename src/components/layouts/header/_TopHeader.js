@@ -1,6 +1,6 @@
-import React from "react";
-import { Content } from "../../common";
-import { header } from "../../../data/index.json";
+import React from 'react';
+import { Content } from '../../common';
+import { header } from '../../../data/index.json';
 
 export default function TopHeader() {
   return (
@@ -11,7 +11,7 @@ export default function TopHeader() {
             <Content className="social_media_links">
               {header.top.social_links.map(({ name, link, icon }) => (
                 <a target="_blank" key={name} rel="noreferrer" href={link}>
-                  <i className={icon}></i>
+                  <i className={icon} />
                 </a>
               ))}
             </Content>
@@ -21,12 +21,16 @@ export default function TopHeader() {
               <ul>
                 <li>
                   <a href="https://gmail.com/">
-                    <i className="icon-envelope-letter"></i> {header.top.email}
+                    <i className="icon-envelope-letter" />
+                    {' '}
+                    {header.top.email}
                   </a>
                 </li>
                 <li>
                   <a href="https://gmail.com/">
-                    <i className="icon-phone"></i> {header.top.phone}
+                    <i className="icon-phone" />
+                    {' '}
+                    {header.top.phone}
                   </a>
                 </li>
               </ul>

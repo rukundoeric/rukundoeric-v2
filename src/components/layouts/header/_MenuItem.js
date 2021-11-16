@@ -1,8 +1,9 @@
-import React from 'react'
-import { Flex } from '../../common'
-import { Link } from 'react-router-dom'
+/* eslint-disable react/prop-types */
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Flex } from '../../common';
 
-export default function _MenuItem({ icon, title, link }) {
+export default function MenuItem({ icon, title, link }) {
   return (
     <Link to={link}>
       <Flex row className="item px-3 py-2">

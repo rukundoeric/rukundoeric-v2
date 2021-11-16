@@ -2,7 +2,8 @@ import React from 'react';
 import { FloatingButton, Content } from '../../common';
 
 export default function aboutFact({
-  title, desc, icon, iconStyle, animation,
+  title, desc, icon, animation,
+
 }) {
   return (
     <Content

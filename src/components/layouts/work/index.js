@@ -1,11 +1,11 @@
 import React from 'react';
-import Skills from './_Skills';
 import { Content } from '../../common';
+import WorkHistory from './_WorkHistory';
 
 export default function index() {
   return (
     <Content>
-      <Skills />
+      <WorkHistory />
     </Content>
   );
 }

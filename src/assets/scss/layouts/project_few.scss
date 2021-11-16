@@ -225,8 +225,15 @@
         float: right;
       }
     }
+    
   }
-
+  .d-link-to-projects {
+    @each $screen in $all_small_screen {
+      @media #{$screen} {
+        margin-top: 40px;
+      }
+    }
+  }
   .s-intro-techs {
     li {
       border: 1px solid red;

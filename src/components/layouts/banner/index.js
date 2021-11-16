@@ -1,7 +1,7 @@
-import React from "react";
-import BannerContent from "./_BannerContent";
-import CodeAnimation from "./_CodeAnimation";
-import { Content } from "../../common";
+import React from 'react';
+import BannerContent from './_BannerContent';
+import CodeAnimation from './_CodeAnimation';
+import { Content } from '../../common';
 
 export default function index() {
   return (

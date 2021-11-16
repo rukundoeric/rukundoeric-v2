@@ -497,3 +497,46 @@ h3 {
   // 	}
   // }
 }
+
+.textInput {
+	label{
+		font-size: 15px;
+		font-weight: 500;
+		color: rgb(102, 102, 102);
+	}
+
+	.textInputField {
+		border: 1px solid #a7a7a7;
+		position: relative;
+		
+		input{
+      border: 0;
+			height: 40px;
+			width: 100%;
+			outline: none;
+		}
+
+		.form-select{
+      border: 0;
+			height: 40px;
+			width: 100%;
+			outline: none;
+		}
+
+		span {
+			position: absolute;
+			width: 40px;
+			right: 0 !important;
+			height: 40px;
+			font-size: 15px;
+			@include flex-center;
+		}
+
+		textarea{
+			height: 100px;
+			width: 100%;
+			border: 0;
+			outline: none;
+		}
+	}
+}

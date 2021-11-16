@@ -1,11 +1,12 @@
+/* eslint-disable react/jsx-key */
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import _ from 'lodash';
 import { skills as skillContent } from '../../../data/index.json';
 import SkillInfo from './_SkillInfo';
 import { Content } from '../../common';
 
-
-export default function _Skills() {
+export default function Skills() {
   const [skills, setSkills] = useState(skillContent.skills);
   const [currentSkill, setCurrrentSkill] = useState(skillContent.skills[0]);
 
@@ -33,28 +34,28 @@ export default function _Skills() {
   };
   return (
     <Content className="service-part mt-5 pt-5">
-    <SkillInfo skill={currentSkill}/>
-    <Content className="container">
-      <Content className="row justify-content-center">
-        <Content className="col-md-12 heading-section text-center ftco-animate mb-5">
-          <span className="subheading">{skillContent.title}</span>
+      <SkillInfo skill={currentSkill} />
+      <Content className="container">
+        <Content className="row justify-content-center">
+          <Content className="col-md-12 heading-section text-center ftco-animate mb-5">
+            <span className="subheading">{skillContent.title}</span>
+          </Content>
+        </Content>
+        <Content
+          className="row d-flex justify-content-center align-items-center"
+          onMouseLeave={handleCloseInfo}
+        >
+          {skills.map((item, i) => (
+            <Content
+              label={item.name}
+              className="icon9 justify-content-center align-items-center"
+              onMouseMove={e => { handleShowInfo(e, item.name); }}
+            >
+              <img src={item.icon} alt={item.name} label={item.name} />
+            </Content>
+          ))}
         </Content>
       </Content>
-      <Content 
-       className="row d-flex justify-content-center align-items-center"
-       onMouseLeave={handleCloseInfo}
-      >
-        {skills.map((item, i) => (
-          <Content 
-          label={item.name}
-          className="icon9 justify-content-center align-items-center"
-          onMouseMove={e => { handleShowInfo(e, item.name); }}
-          >
-            <img src={item.icon} alt={item.name} label={item.name} />
-          </Content>  
-        ))}
-      </Content>
     </Content>
-  </Content>
-  )
+  );
 }

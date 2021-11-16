@@ -1,6 +1,12 @@
-import React from "react";
-import Typewriter from "./_Typewriter";
-import { code } from "../../../data/index.json"
+/* eslint-disable react/no-unused-state */
+/* eslint-disable camelcase */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-deprecated */
+/* eslint-disable react/sort-comp */
+/* eslint-disable max-classes-per-file */
+import React from 'react';
+import Typewriter from './_Typewriter';
+import { code } from '../../../data/index.json';
 
 const { statements } = code;
 
@@ -18,7 +24,7 @@ class Code extends React.PureComponent {
       if (current_statement < statements.length - 1) {
         this.setState({ current_statement: current_statement + 1 });
       } else {
-        this.setState({ current_statement: 0 }) 
+        this.setState({ current_statement: 0 });
       }
     }, 15000);
     return (
@@ -44,7 +50,7 @@ class Statement extends React.PureComponent {
     this.state = {
       return_value: false,
       clear: false,
-      statement: "",
+      statement: '',
     };
   }
 
@@ -61,30 +67,31 @@ class Statement extends React.PureComponent {
     }, 8000);
   }
 
-  componentWillReceiveProps(nextProps) {
-    this.setState({ return_value: false, clear: false, })
+  componentWillReceiveProps() {
+    this.setState({ return_value: false, clear: false });
     this.handleChange();
   }
 
   render() {
-    const { statement } = this.props
+    const { statement } = this.props;
+    const { return_value, clear } = this.state;
     return (
       <div className="statement">
         <div className="input-statement d-flex">
-          {this.state.return_value ? (
+          {return_value ? (
             <div>{statement.input}</div>
           ) : (
             <Typewriter text={statement.input} />
           )}
         </div>
-        {this.state.return_value ? (
+        {return_value ? (
           <div>
             <div
               className="return-statement"
               dangerouslySetInnerHTML={{ __html: statement.return }}
             />
             <div className="input-statement d-flex">
-              {this.state.clear ? (
+              {clear ? (
                 <Typewriter text="clear" />
               ) : (
                 <span>&nbsp;</span>

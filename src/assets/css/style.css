@@ -440,6 +440,7 @@
       color: white; }
 
 .icon9 {
+  position: relative;
   width: 100px;
   height: 100px;
   cursor: pointer;
@@ -459,6 +460,37 @@
   .icon9 img {
     width: 50px;
     height: 50px; }
+  .icon9 span {
+    color: white;
+    display: none !important; }
+  .icon9 .edit-skill {
+    background-color: #28AE60;
+    height: 35px;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    font-size: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+  .icon9 .delete-skill {
+    background-color: #e65d5d;
+    height: 35px;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    font-size: 15px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+  .icon9:hover span {
+    display: flex !important; }
 
 .header-area {
   left: 0;
@@ -1183,6 +1215,39 @@ h3 {
     .heading-section h3 {
       font-size: 28px; } }
 
+.textInput label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #666666; }
+.textInput .textInputField {
+  border: 1px solid #a7a7a7;
+  position: relative; }
+  .textInput .textInputField input {
+    border: 0;
+    height: 40px;
+    width: 100%;
+    outline: none; }
+  .textInput .textInputField .form-select {
+    border: 0;
+    height: 40px;
+    width: 100%;
+    outline: none; }
+  .textInput .textInputField span {
+    position: absolute;
+    width: 40px;
+    right: 0 !important;
+    height: 40px;
+    font-size: 15px;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .textInput .textInputField textarea {
+    height: 100px;
+    width: 100%;
+    border: 0;
+    outline: none; }
+
 .slider_area {
   width: 100%;
   background-color: #f4f3f659;
@@ -1753,6 +1818,18 @@ h3 {
         margin: 5px 0;
         position: relative;
         float: right; }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .project_few .d-link-to-projects {
+      margin-top: 40px; } }
+  @media (max-width: 576px) {
+    .project_few .d-link-to-projects {
+      margin-top: 40px; } }
+  @media only screen and (min-width: 421px) and (max-width: 575px) {
+    .project_few .d-link-to-projects {
+      margin-top: 40px; } }
+  @media (max-width: 420px) {
+    .project_few .d-link-to-projects {
+      margin-top: 40px; } }
   .project_few .s-intro-techs li {
     border: 1px solid red;
     list-style: none;
@@ -1953,5 +2030,109 @@ h3 {
 
 .advanced {
   background-color: #6177f3; }
+
+.experience_container {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 100px 0; }
+  .experience_container #experience {
+    padding: 100px 0; }
+  .experience_container .experience-row {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd; }
+  .experience_container .experience-row h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #28AE60;
+    font-size: 16px;
+    font-weight: bold; }
+  .experience_container .experience-row p {
+    color: #888;
+    margin-top: 20px;
+    font-size: 15px; }
+  .experience_container .experience-row .date {
+    color: #0d0f1a;
+    font-size: 17px; }
+  .experience_container .timeline {
+    padding-left: 0;
+    list-style: none;
+    position: relative; }
+  .experience_container .timeline:before {
+    background-color: #4e4e4e;
+    content: '';
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: 1.77em;
+    width: 2px;
+    height: 100%; }
+  .experience_container .timeline-event {
+    position: relative; }
+  .experience_container .timeline-event:hover .timeline-event-icon {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-color: #28AE60; }
+  .experience_container .timeline-event:hover .timeline-event-thumbnail {
+    box-shadow: inset 40em 0 0 0 #28AE60; }
+  .experience_container .timeline-event-copy {
+    padding: 2em;
+    position: relative;
+    top: -1.875em;
+    margin-left: 4.5em; }
+  .experience_container .timeline-event-copy h3 {
+    font-size: 1.75em; }
+  .experience_container .timeline-event-copy h4 {
+    font-size: 1.2em;
+    margin-bottom: 1.2em; }
+  .experience_container .timeline-event-copy strong {
+    font-weight: 700; }
+  .experience_container .timeline-event-copy p:not(.timeline-event-thumbnail) {
+    padding-bottom: 1.2em; }
+  .experience_container .timeline-event-icon {
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    transition: -webkit-transform 0.2s ease-in;
+    transition: transform 0.2s ease-in;
+    transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #28AE60;
+    outline: 10px solid #daf6e6;
+    display: block;
+    margin: 0.5em 0.5em 0.5em -0.5em;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 1em;
+    height: 1em; }
+  .experience_container .exp-desc i {
+    color: #28AE60; }
+  .experience_container .exp-item-icon {
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    transition: -webkit-transform 0.2s ease-in;
+    transition: transform 0.2s ease-in;
+    transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #28AE60;
+    display: block;
+    margin: 0.5em 0.5em 0.5em -0.5em;
+    width: 1em;
+    height: 1em; }
+  .experience_container .timeline-event-thumbnail {
+    -moz-transition: box-shadow 0.5s ease-in 0.1s;
+    -o-transition: box-shadow 0.5s ease-in 0.1s;
+    -webkit-transition: box-shadow 0.5s ease-in;
+    -webkit-transition-delay: 0.1s;
+    -webkit-transition: box-shadow 0.5s ease-in 0.1s;
+    transition: box-shadow 0.5s ease-in 0.1s;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #0d0f1a;
+    box-shadow: inset 0 0 0 0em #28AE60;
+    display: inline-block;
+    margin-bottom: 1.2em;
+    padding: 0.25em 1em 0.2em 1em; }
 
 /*# sourceMappingURL=style.css.map */

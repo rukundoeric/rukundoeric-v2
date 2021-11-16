@@ -1,18 +1,20 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+/* eslint-disable react/sort-comp */
+import React from 'react';
 
 class Typewriter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: "",
+      text: '',
     };
   }
 
   clicketyClack(text, minTypeSpeed, maxTypeSpeed, initDelay) {
-    let str = "";
+    let str = '';
     let typeSpeed = 0;
 
-    text.split("").forEach((c) => {
+    text.split('').forEach(c => {
       typeSpeed += Math.random() * (maxTypeSpeed - minTypeSpeed) + minTypeSpeed;
       setTimeout(() => {
         str += c;
@@ -22,18 +24,23 @@ class Typewriter extends React.Component {
   }
 
   componentDidMount() {
+    const {
+      text, minTypeSpeed, maxTypeSpeed, initDelay,
+    } = this.state;
     this.clicketyClack(
-      this.props.text,
-      this.props.minTypeSpeed,
-      this.props.maxTypeSpeed,
-      this.props.initDelay
+      text,
+      minTypeSpeed,
+      maxTypeSpeed,
+      initDelay,
     );
   }
 
   render() {
+    const { text } = this.state;
+    const { className } = this.props;
     return (
-      <div className={this.props.className}>
-        {this.state.text}
+      <div className={className}>
+        {text}
         <span>&nbsp;</span>
       </div>
     );
@@ -41,7 +48,7 @@ class Typewriter extends React.Component {
 }
 
 Typewriter.defaultProps = {
-  text: "Give me something to type!",
+  text: 'Give me something to type!',
   minTypeSpeed: 100,
   maxTypeSpeed: 180,
   initDelay: 700,

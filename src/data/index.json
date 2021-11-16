@@ -99,6 +99,11 @@
           "name": "Recommendations",
           "link": "/recommendations",
           "icon": "icon-globe"
+        },
+        {
+          "name": "Manage skills",
+          "link": "/admin/skills",
+          "icon": "icon-globe"
         }
       ],
       "actions": [
@@ -174,7 +179,7 @@
     ]
   },
   "skills": {
-    "title": "My Skills",
+    "title": "My Main Skills",
     "skills": [
       {
         "name": "Javascript",
@@ -293,7 +298,7 @@
     ]
   },
   "experience": {
-    "title": "My Experience",
+    "title": "My Work History",
     "experiences": [
       {
         "role": "Software Engineer",
@@ -583,7 +588,8 @@
     ]
   },
   "sIntro": {
-    "title": "We are here to help you bring your product to life",
+    "title1": "My Projects",
+    "title": "I'm here to help you bring your product to life",
     "section1": {
       "title": "Front-End",
       "description": "We use the front-end development frameworks below to ensure the flexibility and usability of your application.",

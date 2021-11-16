@@ -1,7 +1,8 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import aboutImg from '../../../assets/imgs/about.jpg';
 import ExpetiseItem from './_ExpetiseItem';
-import { Link } from 'react-router-dom';
 import { about, expertise } from '../../../data/index.json';
 import { Content } from '../../common';
 
@@ -26,7 +27,10 @@ export default function About() {
               <Content className="text-inner">
                 <Content className="about_text">
                   <h3>{about.title2}</h3>
-                  <p>{about.description}<Link to="/introduction" className="ml-2">More</Link></p>
+                  <p>
+                    {about.description}
+                    <Link to="/introduction" className="ml-2">More</Link>
+                  </p>
                 </Content>
                 <Content className="row d-flex">
                   <Content className="col-md-12 title-2">

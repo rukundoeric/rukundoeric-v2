@@ -1,8 +1,9 @@
-import React from "react"
-import { Content, Flex } from '../../common'
-import { banner } from "../../../data/index.json"
+/* eslint-disable react/button-has-type */
+import React from 'react';
+import { Content, Flex } from '../../common';
+import { banner } from '../../../data/index.json';
 
-export default function _BannerContent() {
+export default function BannerContent() {
   return (
     <Content className="col-xl-6 col-lg-6">
       <Flex column className="slider_text">
@@ -11,9 +12,9 @@ export default function _BannerContent() {
         <p className="text-center text-md-start" dangerouslySetInnerHTML={{ __html: banner.description }} />
         <Flex center className="justify-content-lg-start">
           <Flex className="slider_btns flex-column flex-sm-row">
-            <button className="boxed-btn" > Contact me </button>
-            <Content className="separator"/>
-            <button className="boxed-btn" > Contact me </button>
+            <button className="boxed-btn"> Contact me </button>
+            <Content className="separator" />
+            <button className="boxed-btn"> Contact me </button>
           </Flex>
         </Flex>
       </Flex>
